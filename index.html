@@ -14,6 +14,8 @@
     <body>
         <header>
             <a href="index.html" class="logo">Guitar Kings</a>
+            <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
             <nav>
                 <ul>
                     <li><a href="index.html"class="active">Home</a></li>
@@ -25,8 +27,8 @@
         <main>
             <section class="welcome">
                 <div class="welcome__content">
-                <h1>Authentic Handmade Guitars</h1>
-                <a href="guitars.html" class="cta">View Guitars</a>
+                    <h1>Authentic Handmade Guitars</h1>
+                    <a href="guitars.html" class="cta">View Guitars</a>
                 </div>
             </section>
             <section class="selling-points">
@@ -40,7 +42,9 @@
                         <li>Options for all music lovers</li>
                     </ul>
                 </div>
-                <img src="images/home-info.jpg" alt="Hand strumming guitar" class="selling-points__images"/>
+                <div>
+                    <img src="images/home-info.jpg" alt="Hand strumming guitar" class="selling-points__images"/>
+                </div>
             </section>
             <section class="reviews">
                 <h2>Reviews</h2>
@@ -58,25 +62,28 @@
             </section>
             <section class="featured">
                 <h2>View Our Guitars</h2>
-                <div class="featured__products">
-                    <img src="images/product.jpg" alt="Adirondack Red" />
+                <div class="products">
+                    <img src="images/product.jpg" alt="Adirondack Red"/>
                     <h3>Adirondack Red</h3>
                     <p>$500</p>
-                    <a href="Products/adirondack-red.html" class="cta cta-small">View</a>
+                    <a href="products/adirondack-red.html" class="cta cta-small">View</a>
                 </div>
-                <div class="featured__products">
+                <div class="products">
                     <img src="images/product.jpg" alt="Adirondack Red" />
                     <h3>Adirondack Red</h3>
-                    <p>$500</p>
+                <div class="products--sale">
+                    <p class="old-price">$500</p>
+                    <p>$400</p>
+                </div>
                     <a href="products/adirondack-red.html" class="cta cta-sale cta-small">On sale</a>
                 </div>
-                <div class="featured__products">
+                <div class="products">
                     <img src="images/product.jpg" alt="Adirondack Red" />
                     <h3>Adirondack Red</h3>
                     <p>$500</p>
                     <a href="products/adirondack-red.html" class="cta cta-small">View</a>
                 </div>
-                <div class="featured__products">
+                <div class="products">
                     <img src="images/product.jpg" alt="Adirondack Red" />
                     <h3>Adirondack Red</h3>
                     <p>$500</p>
